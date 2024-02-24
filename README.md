@@ -1,4 +1,4 @@
-# RAG Chatbot 🦜️🔗 🦜️🏓 ![Azure](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/60px-Microsoft_Azure_Logo.svg.png)
+# RAG Chatbot 🦜️🔗 🦜️🏓 ![Azure](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/120px-Microsoft_Azure_Logo.svg.png)
 
 ## Description
 
