@@ -1,0 +1,19 @@
+@startuml
+
+[FastAPI] as API
+[LangChain] as LangChain
+[TextLoader] as TextLoader
+[RecursiveCharacterTextSplitter] as TextSplitter
+[Chroma] as VectorStore
+[ChatOpenAI] as ChatOpenAI
+[StrOutputParser] as OutputParser
+
+API --> LangChain : Retrieve Relevant Documents
+LangChain --> TextLoader : Load Documents
+LangChain --> TextSplitter : Split Documents into Segments
+LangChain --> VectorStore : Convert Documents to Vectors
+LangChain --> ChatOpenAI : Generate Response
+ChatOpenAI --> OutputParser : Format Response
+OutputParser --> API : Send Response
+
+@enduml
